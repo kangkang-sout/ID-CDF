@@ -1,0 +1,1 @@
+python run.py --train_file simulate/train_split.csv --valid_file simulate/train_split.csv --test_file simulate/train_split.csv --Q_matrix simulate/Q-matrix.npy --save_path ./result/ID-CDM-subjective --n_user 1001 --n_item 24 --n_know 29 --user_dim 64 --item_dim 64 --batch_size 32 --lr 0.0001 --epoch 10 --device cpu

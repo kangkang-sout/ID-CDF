@@ -1,0 +1,25 @@
+{
+  "n_user": 1001,
+  "n_item": 24,
+  "n_know": 29,
+  "user_dim": 64,
+  "item_dim": 64,
+  "input_shapes": {
+    "user_log": [
+      -1,
+      24
+    ],
+    "item_log": [
+      -1,
+      1001
+    ],
+    "user_id": [
+      -1,
+      1
+    ],
+    "item_id": [
+      -1,
+      1
+    ]
+  }
+}
